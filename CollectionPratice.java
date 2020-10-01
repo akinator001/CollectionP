@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class CollectionPratice {
 	
-	public void stkp() {
+	public static void stkp() {
 		Stack<Integer> stk = new Stack<Integer>();
 		stk.push(1);
 		stk.push(2);
@@ -12,9 +12,11 @@ public class CollectionPratice {
 		stk.push(4);
 		System.out.println(stk);
 	}
+	
 
 	public static void main(String[] args) {
 		System.out.println("welcome master");
+		stkp();
 	}
 
 }
